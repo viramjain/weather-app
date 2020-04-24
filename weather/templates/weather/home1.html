@@ -1,0 +1,11 @@
+{% extends 'weather/home2.html' %}
+{% block content %}
+{% endblock %}
+{% block last %}
+<div class="card positionCard" style="width: 18rem;">
+  <img src="https://image.shutterstock.com/image-photo/sunset-over-ocean-bright-orange-260nw-242372626.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{a.city}}</h5>
+    <p class="card-text">{{a.temprature}}</p>
+  </div>
+    {% endblock %}

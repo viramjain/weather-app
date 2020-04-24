@@ -1,0 +1,18 @@
+.img{
+	background-image: url("https://cdn.pixabay.com/photo/2019/04/15/22/21/weather-4130495_960_720.jpg");
+}
+.searchbar{
+
+	/*background-color: red;*/
+	position: fixed;
+	top:300px;
+	left: 550px;
+	right: 500px; 
+	
+}
+.positionCard{
+position:fixed;
+top:500px;
+left:550px;
+right:500px;
+}
